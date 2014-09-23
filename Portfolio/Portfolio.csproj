@@ -66,9 +66,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutme.html" />
+    <Content Include="contactme.html" />
     <Content Include="index.html" />
+    <Content Include="projects.html" />
     <Content Include="scripts\foundation.min.js" />
     <Content Include="scripts\jquery.js" />
+    <Content Include="services.html" />
     <Content Include="styles\foundation.min.css" />
     <Content Include="styles\main.css" />
     <Content Include="Web.config" />
