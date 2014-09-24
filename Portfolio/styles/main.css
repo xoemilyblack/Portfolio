@@ -17,13 +17,14 @@ body {
 }
 
 a {
-    color: #026acb;
+    color: #341ef6;
     text-decoration: none;
     outline: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color:#b200ff;
 }
 
 p {
@@ -57,11 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	height: 160px;
 }
-.logo img {
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-}
+
 
 #main-nav {
     width: 100%;
@@ -73,9 +70,7 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
     z-index: 100;
     background: black;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
+   
 }
 
 #main-nav li {
@@ -109,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #main-nav li a.current  {
      color: #fff;
-     background:purple;
+     background:#b200ff;
 }
 
 
@@ -119,13 +114,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 35px;
     width: 650px;
     float: left;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
+
 }
 #content img {
     float:right;
     margin:10px;
+
 }
 
 .post {
@@ -149,14 +143,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff;
     margin: 0 0 30px;
     padding: 10px 20px;
-    /* rounded corner */
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    /* box shadow */
-    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
-    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
-    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    
 }
 
 .socialtitle {
