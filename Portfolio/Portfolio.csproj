@@ -58,6 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="contactme.html" />
+    <Content Include="images\Thumbs.db" />
+    <Content Include="images\resume.docx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -67,7 +69,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutme.html" />
+    <Content Include="images\background.jpg" />
+    <Content Include="images\emily.jpg" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\github.png" />
+    <Content Include="images\infinity.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\testing.jpg" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\web.png" />
     <Content Include="index.html" />
+    <Content Include="privacy.html" />
     <Content Include="projects.html" />
     <Content Include="scripts\foundation.min.js" />
     <Content Include="scripts\jquery.js" />
@@ -79,9 +91,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
