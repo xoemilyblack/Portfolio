@@ -1,0 +1,99 @@
+﻿<!--File: index.html
+    Name: Emily Black
+    Date: Sept 2014
+    Purpose: Home Page-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Privacy Policy</title>
+    <!-- main css and foundation css -->
+    <link href="styles/foundation.min.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!--Page wrap section-->
+    <div id="pagewrap">
+        <!--Header-->
+        <header id="header">
+            <div class="logo">
+                <img src="images/logo.png" />
+            </div>
+            <!--Navigaiton Bar-->
+            <nav>
+                <ul id="main-nav" class="nav">
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a> </li>
+                    <li><a href="services.html">Services</a> </li>
+                    <li><a href="contactme.html">Contact Me</a></li>
+                    <li><a class ="current" href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <!--Content Div-->
+        <div id="content">
+            <article>
+                <header>
+                    <h1 class="title">Privacy Policy</h1>
+                </header>
+
+                <h3>Third Parties</h3>
+                <p>
+                   This website makes use of the framework foundation. Foundation is a free to use
+                    open source framework to help developers and designer make web sites easier.
+                </p>
+                <h3>Information</h3>
+                <p>This website is for informational purposes only. We do not
+                collect any personal information. We do not target advertise.</p>
+                <p>Thank you for visiting my site !</p>
+            </article>
+
+        </div>
+        <!--Sidebar-->
+        <aside id="sidebar">
+            <section class="social">
+                <h4 class="socialtitle">Keep Connected</h4>
+                <ul>
+                    <li id="facebook"> <a href="https://www.facebook.com/xoemilyblack"> <img src="images/facebook.png"></a>Facebook  </li>
+                    <li id="twitter"> <a href="https://twitter.com/emilyblack06"> <img src="images/twitter.png"></a>Twitter  </li>
+                    <li id="github"> <a href="https://github.com/xoemilyblack/"> <img src="images/github.png"> </a>Github </li>
+                </ul>
+            </section>
+
+            <section class="social">
+                <h4 class="socialtitle">Feature Work</h4>
+                <h5><a href="projects.html" class="button1">Check It Out</a></h5>
+                <ul class="example-orbit" data-orbit>
+                    <li>
+                        <img src="images/infinity.jpg" alt="slide 1" />
+                        <div class="orbit-caption"> Arduino Controlled infinity mirror. </div>
+                    </li>
+                    <li class="active">
+                        <img src="images/testing.jpg" alt="slide 2" />
+                        <div class="orbit-caption">Regression Testing Tool with java.</div>
+                    </li>
+                    <li>
+                        <img src="images/web.png" alt="slide 3" />
+                        <div class="orbit-caption">Redesigned API website.</div>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+        <!--Footer-->
+        <footer id="footer">
+            <p>&copy;2014 Emily Black | Portfolio | Foundation</p>
+        </footer>
+    </div>
+    <!--Scripts-->
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>
