@@ -1,8 +1,8 @@
-﻿img, fieldset {
-    border: 0;
-}
-
-/* set image max width to 100% */
+﻿/*File: main.css
+    Name: Emily Black
+    Date: Sept 2014
+    Purpose: CSS Page*/
+/*MAIN STYLING*/
 img {
     max-width: 100%;
     height: auto;
@@ -80,6 +80,8 @@ h1, h2, h3, h4, h5, h6 {
    float: left;
    position: relative;
    text-align: center;
+   font-family:Arial;
+   
 
 }
 
@@ -94,7 +96,6 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding: 14px 15px;
     text-decoration: none;
-    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
     }
 
 #main-nav a:hover {
@@ -106,7 +107,6 @@ h1, h2, h3, h4, h5, h6 {
      color: #fff;
      background:#b200ff;
 }
-
 
 #content {
     background: #fff;
@@ -192,6 +192,7 @@ footer {
     zoom: 1;
 }
 
+/*Media query for responsive webpage*/
 @media screen and (max-width: 980px) {
 
     #pagewrap {
@@ -212,7 +213,7 @@ footer {
         margin-bottom: 10px;
    }
 }
-
+/*Media query for reponsive web page - medium screen*/
 @media screen and (max-width: 650px) {
 
 
@@ -246,7 +247,7 @@ footer {
         margin: 0 0 10px;
     }
 }
-
+/*Media query for responsive webpage - small screen*/
 @media screen and (max-width: 480px) {
 
 
@@ -258,4 +259,6 @@ footer {
         font-size: 90%;
         padding: 10px 8px;
     }
+ 
+
 }
