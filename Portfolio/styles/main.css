@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding: 14px 15px;
     text-decoration: none;
+    font-family:arial;
     }
 
 #main-nav a:hover {
@@ -163,8 +164,7 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
     border-top: solid 1px #eee;
     text-decoration: none;
-    font-family: Arial;
-    color: black;
+    color: #666;
 }
 
 footer {
@@ -191,6 +191,28 @@ footer {
     display: block;
     zoom: 1;
 }
+button1, .button1 {
+    font-family: "Arial";
+    font-weight: bold;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    background-color: #b200ff;
+    color: #fff;
+  
+}
+button1:hover, button1:focus, .button1:hover, .button1:focus {
+        background-color: #666;
+        color:#FFF;
+    }
 
 /*Media query for responsive webpage*/
 @media screen and (max-width: 980px) {

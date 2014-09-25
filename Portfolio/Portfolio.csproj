@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contactme.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -66,7 +67,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutme.html" />
-    <Content Include="contactme.html" />
     <Content Include="index.html" />
     <Content Include="projects.html" />
     <Content Include="scripts\foundation.min.js" />
